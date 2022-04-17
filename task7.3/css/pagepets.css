@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    padding: 30px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.active{
+    padding-bottom: 5px;
+    border-bottom: solid 3px #F1CDB3;
+    color: #292929;
+}
+.flex-wrapper{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    color: #545454;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+a span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 35px;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+
+nav li a{
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #545454;;
+}
+
+nav li:first-child{
+    margin-left: 0px;
+}
+
+.ourpets{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #F6F6F6;
+}
+main h1{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.aboutpets{
+    background-color: #FAFAFA;
+    border-radius: 9px;
+    flex-basis: 270px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+.learnmore{
+    display: inline-block;
+    padding: 15px 45px;
+    border: 2px #f1cdb3 solid;
+    border-radius: 100px;
+    color: #292929;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+
+.learnmore:hover{
+    cursor: pointer;
+    background-color: #FDDCC4;
+    border: none;
+}
+
+h2{
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.aboutpets:hover{
+    background-color: #fff;
+}
+
+.buttonnav{
+    width: 340px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bnav{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bnav{
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.buttonnav .pagenumber{
+    background-color: #F1CDB3;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+}
+
+.buttonnav .back{
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    background-color: #F6F6F6;
+}
+
+.buttonnav .next{
+    border: 2px solid #F1CDB3;
+    background-color: #F6F6F6;
+    color: #292929;
+}
+
+.buttonnav .next:hover{
+    background-color: #FDDCC4;
+    border: #FDDCC4 2px solid;
+}
+
+footer{
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    padding-top: 40px;
+}
+
+footer .footerabout > div{
+    width: 300px;
+}
+
+footer .footerabout{
+    align-items: flex-start;
+}
+
+.footerabout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts, .location{
+    padding-top: 16px;
+    padding-bottom: 60px;
+}
+
+.footerabout h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #fff;
+}
+
+footer a{
+    display: block;
+    width: 302px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.tel{
+    background-image: url(../images/phone.svg)
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 5px 0px 5px 60px;
+    margin-top: 40px;
+}
+
+.mail{
+    background-image: url(../images/mail.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 5px 0px 5px 60px;
+    margin-top: 40px;
+}
+
+.boston{
+    background-image: url(../images/pin.svg);
+    background-repeat: no-repeat;
+    padding-left: 42px;
+    background-position: left center;
+    margin-top: 34px;
+}
+
+.london{
+    background-image: url(../images/pin.svg);
+    background-repeat: no-repeat;
+    padding: 5px 0px 5px 42px;
+    margin-top: 34px;
+}
